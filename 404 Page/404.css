@@ -1,0 +1,144 @@
+html,*{
+    box-sizing: border-box;
+}
+
+body{
+    border:15px;
+    margin:0;
+    /* padding:10px; */
+    font-family:Courier, monospace;
+}
+
+.message{
+    /* background-color: aqua; */
+    width:100%;
+    padding:30px;
+    box-sizing: content-box;
+}
+
+section{
+    width:100%;
+    float:left;
+    padding:1em;
+    margin-top:2em;
+    height:auto;
+
+}
+
+section div{
+    margin:1%;
+    float:left;
+    height:300px;
+}
+.image{
+    /* border:3px solid blue; */
+    height:500px;
+    width:48%;
+    /* float:left; */
+}
+
+
+img{
+   max-width: 100%;
+   max-height: 100%;
+   padding:10px;
+}
+
+
+.error-message{
+    width:48%;
+    margin-top:100px;
+    padding:10px; 
+}
+
+button{
+    margin-top:auto;
+    padding:10px;
+    text-transform: uppercase;
+    border-radius:10px;
+    background-color:black ;
+    color:antiquewhite;
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    font-weight:lighter;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    html,*{
+        box-sizing: border-box;
+    }
+    
+    body{
+        border:15px;
+        margin:0;
+        /* padding:10px; */
+        font-family:Courier, monospace;
+    }
+    
+    .message{
+        /* background-color: aqua; */
+        width:100%;
+        padding:30px;
+        box-sizing: content-box;
+    }
+    
+    section{
+        width:100%;
+        float:left;
+        padding:1em;
+        margin-top:2em;
+        height:auto;
+    
+    }
+    
+    section div{
+        margin:1%;
+        float:left;
+        height:300px;
+    }
+    .image{
+        /* border:3px solid blue; */
+        height:300px;
+        width:100%;
+        /* float:left; */
+    }
+    
+    
+    img{
+       max-width: 100%;
+       max-height: 100%;
+       padding:10px;
+    }
+    
+    
+    .error-message{
+        width:100%;
+        margin-top:50px;
+        padding:10px; 
+    }
+    
+    button{
+        margin-top:auto;
+        padding:10px;
+        text-transform: uppercase;
+        border-radius:10px;
+        background-color:black ;
+        color:antiquewhite;
+    }
+    
+    button:hover{
+        background-color: white;
+        color:black;
+        cursor: pointer;
+    }
+}
